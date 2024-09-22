@@ -1,0 +1,50 @@
+.balance-sheet-report {
+	margin: 20px;
+}
+
+.report {
+	margin: 20px 0;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.report .titles {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.report .titles li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.report .titles li:not(:last-child):after {
+	content: '|';
+	margin-left: 10px;
+}
+
+h1, h2, h3 {
+	color: #333;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+tr.section > td {
+	padding: 10px;
+	background-color: #f8f8f8
+}
